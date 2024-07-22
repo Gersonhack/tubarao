@@ -1,0 +1,364 @@
+
+
+    :root {
+      --color-neutral-0: #0e0c0c;
+      --color-neutral-10: black;
+      --color-neutral-30: #a8a29e;
+      --color-neutral-40: #f5f5f5;
+   
+    }
+    * {
+  
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    }
+body {
+margin: 0;
+  width: 100vw;
+  
+  overflow-x: hidden;
+  background: #1D1E2A;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14.5px;
+  line-height: 1.4em;
+  color: #404646;}
+.gr{
+    height: 200px; 
+    width: 100%;/* Defina a altura desejada para as imagens */
+    object-fit: cover; /* Para manter a proporção da imagem */}
+    img{
+      width: 90px; /* Define a largura da imagem */
+  height: 70px; /* Define a altura da imagem */
+  margin-right: 10px; /* Define a margem direita para separar o ícone dos textos na navegação */
+  display: inline-block; /* Coloca a imagem em linha com o texto na navegação */
+      
+    }
+    
+    button{
+      background: #494D7C;
+      
+    }
+    
+    main{
+      height:100vh;
+   
+    }
+ .logo{
+   position: relative;
+   left: 60px;
+   align-items: center;
+   border-radius: 50%;
+   height: 60%;
+   width: 50%;
+   
+ }
+    
+    
+    footer {
+    width: 100%;
+   
+    bottom: 0;
+    color: var(--color-neutral-40);
+}
+
+
+.footer-link {
+    text-decoration: none;
+}
+.footerr{
+  height: 50px
+  ;
+  width: 70%;
+  
+}
+#footer_content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 19% 3.5rem;
+    
+   top:15%;
+   left:5%;
+   
+   bottom: 0;
+   
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+} 
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;    
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_subscribe p {
+    color: red;
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: #1D1E2A;
+    border-radius: 4px;
+}
+
+#input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input_group button {
+    background-color: #7f37c9;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input_group button:hover {
+    opacity: 0.8;
+}
+.robo:hover{
+  background: transparent;
+  color:#42445A;
+}
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+    @media screen and (max-width: 768px) {
+      #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+  
+      }
+    }
+
+    @media screen and (max-width: 426px) {
+      #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+      }
+    }
+
+
+.bg-body-tertiary{
+  background-color: #000000; /* Cor preta em hexadecimal */
+}
+
+
+h1{
+  color:white;
+}
+.container {
+  min-height: 100vh;
+  width: 100%;
+  margin: 
+  auto;
+  padding: 1.6em;
+  grid-gap: 1.6em;
+  grid-template: auto/repeat(auto-fill, minmax(27em, 27em));
+ 
+}
+.kk{
+  color:#10FF85;
+}
+
+  
+  
+
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: repeating-linear-gradient(48deg, #3023ae 0%, #ff0099 100%);
+  border-radius: 35% 30% 75% 30% / 49% 30% 70% 51%;
+  position: absolute;
+  animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+.circle:nth-child(1) {
+  top: -25px;
+  left: -25px;
+}
+
+
+.circle:nth-child(2) {
+  bottom: -25px;
+  right: -25px;
+  animation-name: move-down1;
+}
+
+
+@keyframes move-up6 {
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes move-down1 {
+  to {
+    transform: translateY(10px);
+  }
+}
+.card{
+  background: transparent;
+ 
+}
+
+
+
+/*desktop */
+@media (min-width:980px){
+  .card{
+   background: transparent;
+    padding: 30px;
+   width: 300rem;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+ position: absolute;
+ 
+   left: 5%;
+   top:15%;
+   color:#717284;
+   font-family: sans-serif;
+    min-height: 40vh;
+  }
+    .footer-link {
+      
+     font-size:1rem;
+     
+    }
+    .footerr{
+      width: 50rem;
+    }
+p{
+  color:#0E6A8D;
+}
+.footer-list{
+color:red;
+}
+.robo{
+  
+
+
+  display: flex;
+  justify-content: center;
+  padding: 15px 30px;
+  align-items: flex-end;
+  position: relative;
+  left:240px;
+  top:80px;
+}
+ .logo{
+   position: relative;
+   left: 190px;
+   align-items: center;
+   border-radius: 50%;
+   height: 20%;
+   width: 40%;
+   
+ }
+ .card-text{
+   text-align: center;
+   font-size: 15px;
+   text-align: justify;
+ }
+ 
+    .gr{
+      height: 400px; 
+   /* Defina a altura desejada para as imagens */
+    object-fit: cover; /* Para manter a proporção da imagem */}
+    
+}
+
+
+@media (min-height:980px){
+ main{
+  height: 70vh;
+  
+ }
+
+}
+@media (min-height:980px){
+  #footer_content{
+   height: 35rem;
+   display: flex;
+  }
+  #footer_subscribe{
+    display: flex;
+padding: 3.5rem;
+  }
+  
+
+}
+/* fim desktop */
